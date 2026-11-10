@@ -1,29 +1,40 @@
-# Agrivion - Multi-Tier Plant Disease Diagnosis and Treatment Recommendation System
+# Agrivion – Multi-Tier Plant Disease Diagnosis and Treatment Recommendation System
 
 ## Project Overview
 
-Agrivion is a plant disease diagnosis and treatment recommendation system designed to help identify plant diseases using image processing and deep learning techniques.
+Agrivion is an academic project designed to identify diseases affecting citrus plants and provide treatment recommendations using image processing and machine learning techniques.
 
-The system uses a Convolutional Neural Network (CNN) to classify plant diseases from leaf images and provides treatment recommendations to support early disease identification.
+The project focuses on Orange, Lemon, Lime and Mosambi plants.
 
 ## Technologies Used
 
 - Python
-- Convolutional Neural Network (CNN)
-- Raspberry Pi
-- Image Processing
+- OpenCV
+- NumPy
+- Scikit-learn
+- Random Forest
+- Raspberry Pi (as described in the project report)
+- SQLite (as described in the project report)
 
 ## Key Features
 
-- Plant disease identification using leaf images.
-- CNN-based disease classification.
-- Camera-based image capturing using Raspberry Pi.
-- Touchscreen-based user interaction.
+- Plant leaf image preprocessing.
+- HSV colour feature extraction.
+- Sobel gradient and Canny edge detection.
+- Random Forest-based disease classification in the reconstructed implementation.
 - Treatment recommendations for identified diseases.
 
 ## Project Objective
 
-To develop a multi-tier system that helps identify plant diseases efficiently and supports users with appropriate treatment recommendations.
+To develop a multi-tier system that supports early identification of citrus plant diseases and provides relevant treatment recommendations.
+
+## Implementation Note
+
+The original source code and dataset are not currently available. The Python files in this repository have been reconstructed using the code excerpts in the printed project report.
+
+The report describes additional hardware and interface features, including Raspberry Pi camera capture and touchscreen interaction. These features are not implemented in the reconstructed Python scripts currently available in this repository.
+
+The reconstructed code has passed a Python syntax check but has not yet been tested with the original dataset.
 
 ## Project Type
 
